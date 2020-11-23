@@ -1,0 +1,86 @@
+.HomeTop {
+  display: grid;
+  color: white;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.page-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+
+.menu-grid{
+  max-width: 800px;
+  margin-bottom: 80px;
+  
+}
+
+
+.select-box {
+  background-color: #ffffff;
+  color: rgb(109, 109, 109);
+  border-radius: 20px;
+  padding: 30px 1px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29); 
+}
+
+  
+
+.doc-icon {
+  font-size: 4rem;
+  color: rgb(197, 197, 197);
+  margin: 0 0 20px;
+}
+
+.selecciona {
+  margin-bottom: 20px;
+  width: 250px;
+  font-size: 1.2rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.dropdown {
+  height: 30px;
+  width: 200px;
+  border-radius: 7px;
+  border: none;
+  font-family: roboto, sans-serif;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  margin-bottom: 25px;
+}
+
+
+
+.logo-small {
+  width: 200px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  width: 700px;
+  max-width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
+
+@media (min-width: 571px) {
+  .banderita{
+    margin-left: 60px;
+  }
+}

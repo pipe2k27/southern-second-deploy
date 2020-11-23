@@ -1,13 +1,13 @@
 import React from "react";
-import "./css/Steps.css";
+import "./HomeBottom.css";
 import { Link } from "react-router-dom";
 
-export default function Steps() {
+export default function HomeBottom() {
   return (
     <div>
-      <h1>Tu documento en 3 Simples Pasos</h1>
-      <div className="steps">
-        <div className="step">
+      <h1 style={{ marginBottom: 30 }}>3 Simples Pasos</h1>
+      <div className="steps grid-mobile">
+        <div className="step mobile-margin">
           <div className="step-box">
             <h4 className="step-title">1. Seleccioná</h4>
             <i class="fas fa-file-signature step-icon"></i>
@@ -17,7 +17,7 @@ export default function Steps() {
             </p>
           </div>
         </div>
-        <div className="step">
+        <div className="step mobile-margin">
           <div className="step-box">
             <h4 className="step-title">2. Contestá</h4>
             <i class="far fa-question-circle step-icon"></i>
@@ -27,7 +27,7 @@ export default function Steps() {
             </p>
           </div>
         </div>
-        <div className="step">
+        <div className="step mobile-margin">
           <div className="step-box">
             <h4 className="step-title">3. Imprimí</h4>
             <i class="fas fa-print step-icon"></i>
@@ -38,31 +38,9 @@ export default function Steps() {
           </div>
         </div>
       </div>
-      <Link to="/create-document" className="button7 long">
+      <Link to="/create-document" className="button-standard" style={{ width: 310 }}>
         <i class="fas fa-file-signature"></i> ¡Seleccioná tu documento!
       </Link>
-
-      <img
-        src={process.env.PUBLIC_URL + "/images/folders.jpg"}
-        className="folders"
-      ></img>
-
-      <h1>Aprovado por entidades</h1>
-
-      <div className="aproval">
-        <img
-          src={process.env.PUBLIC_URL + "/images/colegio.png"}
-          className="logo-banner colegio"
-        ></img>
-        <img
-          src={process.env.PUBLIC_URL + "/images/uca.png"}
-          className="logo-banner uca"
-        ></img>
-        <img
-          src={process.env.PUBLIC_URL + "/images/bogas.png"}
-          className="logo-banner bogas"
-        ></img>
-      </div>
-    </div>
+    </div >
   );
 }

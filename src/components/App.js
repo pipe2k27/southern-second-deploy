@@ -1,24 +1,28 @@
 import React from "react";
-import Navbar from "./Navbar";
-import TextBanner1 from "./text-banner1";
-import Footer from "./Footer.js";
-import Steps from "./Steps.js";
-import Create from "./Create.js";
+import Navbar from "./Navbar/Navbar";
+import HomeTop from "./Home/HomeTop";
+import DocList from "./Home/DocList";
 
-import "./css/styles.css";
+import Footer from "./Footer/Footer.js";
+import HomeBottom from "./Home/HomeBottom.js";
+import Recibo from './Documents/Recibo/index'
+
 import { Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Route exact path="/">
-        <TextBanner1 />
-        <Steps />
-      </Route>
-      <Route path="/create-document">
-        <Create />
-      </Route>
+      <div className="mobile-padding">
+        <Route exact path="/">
+          <HomeTop />
+          <HomeBottom />
+          <DocList />
+        </Route>
+        <Route path="/recibo">
+          <Recibo />
+        </Route>
+      </div>
       <Footer />
     </div>
   );

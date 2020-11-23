@@ -1,0 +1,24 @@
+.message{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.review-answer {
+    color: blue;
+    font-size: 1rem;
+}
+
+.recorda{
+    margin-top:25px ;
+}
+
+
+.cards{
+    width: 400px
+}
+@media (max-width: 500px){
+    .cards{
+        width: 80%
+    }
+}

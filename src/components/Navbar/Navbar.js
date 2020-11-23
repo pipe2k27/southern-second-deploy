@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./css/Navbar.css";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -25,10 +25,7 @@ export default function Navbar() {
         <Link to="/" className="nav-element">
           Home
         </Link>
-        <Link to="/#footer" className="nav-element">
-          Contacto
-        </Link>
-        <Link to="/create-document" className="nav-element">
+        <Link to="/recibo" className="nav-element">
           Documentos
         </Link>
       </div>

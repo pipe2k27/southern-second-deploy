@@ -1,0 +1,15 @@
+.doc-list{
+    margin: 20px 0;
+}
+
+.doc-item{
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.doc-item:hover{
+    color: #ffd369;
+}
