@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40d7eaa41537577e7ffd138b5f7ea701",
+    "revision": "3a60069ca7416588257d234adc3e4a89",
     "url": "/southern-second-deploy/index.html"
   },
   {
-    "revision": "0e5c880ccaf095265fc2",
-    "url": "/southern-second-deploy/static/css/main.efe57ef9.chunk.css"
+    "revision": "058fabb0a0d672c053da",
+    "url": "/southern-second-deploy/static/css/main.025eb497.chunk.css"
   },
   {
     "revision": "fb2de9c161ca72998dd3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/southern-second-deploy/static/js/2.09652de2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e5c880ccaf095265fc2",
-    "url": "/southern-second-deploy/static/js/main.07ed9adb.chunk.js"
+    "revision": "058fabb0a0d672c053da",
+    "url": "/southern-second-deploy/static/js/main.5154d518.chunk.js"
   },
   {
     "revision": "e4eb19c84756ac9ef986",
